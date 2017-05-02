@@ -11,9 +11,14 @@ class amf_migration_config {
     static $db_pass = '';
 
     static $dir = '';
+    /**
+     * @var string MySQL CharacterSet
+     */
     static $encoding = '';
     /**
      * @var string Migration table name
      */
     static $table = '';
+
+
 }
